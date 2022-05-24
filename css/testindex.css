@@ -1,0 +1,69 @@
+.box{
+    width: 350px;
+    border: 1px solid;
+    height: 6rem;
+    border-radius: 1rem;
+    background-color: lightgray;
+}
+.boxmenu h3 {
+    padding-left: 0.5rem;
+    margin: 0;
+    margin-top: 1rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: -9px;
+}
+
+.boxmenu .cloche { 
+    background-color: #99E2D0;
+    padding: 1rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: margin-right 2s;
+    margin-right: -6rem;
+    width: 
+    4rem;
+    transition-duration: .5s;
+}
+.boxmenu:hover .cloche{
+    margin-right: 0;   
+}
+
+.boxmenu:hover .cloche i{
+    visibility: visible;
+}
+.cloche i{
+    background-color: white;
+    color: #99E2D0;
+    border-radius: 50%;
+    padding: 0.5rem;
+    visibility: hidden;
+ }
+
+ .displaytest{
+     display: flex;
+     justify-content: space-around;
+     overflow: hidden;
+     flex-direction: column;
+ }
+ .textest{
+     text-overflow: ellipsis;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .textmenu2{
+     text-overflow: ellipsis;
+ }
+ .price1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: auto;
+    padding-left: 9.7REM;
+ }
+
+ 

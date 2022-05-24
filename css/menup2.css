@@ -1,0 +1,408 @@
+.ensembletitre h1 {
+    font-family: 'Shrikhand', sans-serif;
+    padding-left: 1.3rem;
+}
+
+.ensembletitre {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    background-color: #f6f6f6;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: ABSOLUTE;
+    top: 500px;
+    border-radius: 3rem 3rem 0rem 0rem;
+
+}
+
+.fa-regular.heart2r.fa-heart {
+    padding-top: 1rem;
+    font-size: 2em;
+    position: sticky;
+    left: 3000px;
+    bottom: 20px;
+    padding-right: 2rem;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+
+.fa-solid.heart2s.fa-heart {
+    font-size: 2.2em;
+    position: sticky;
+    left: 3000px;
+    bottom: 20px;
+    padding-top: 1rem;
+    padding-right: 1.9rem;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: transparent;
+    background-image: linear-gradient(170deg, #ff79da, #9356dc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+@media (max-width:395px) {
+    .fa-solid.heart2s.fa-heart {
+        font-size: 2.2em;
+    }
+}
+
+@media (min-width:768px) {
+    .boxmenu {
+        height: 6rem;
+    }
+}
+
+/* @media (max-width:320px) {
+    .boxmenu {
+        width: 16rem;
+    }
+} */
+
+@media (max-width:310px) {
+    .menu h2 {
+        padding-top: 1.5rem;
+        margin-top: 4rem;
+    }
+}
+
+.menu h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.displaymenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+
+
+}
+
+.displayglobal {
+    width: auto;
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.displayglobal2 {
+    width: auto;
+    height: 26rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+.delay1 {
+    color: blue;
+    animation-delay: 900ms;
+}
+
+@keyframes delay1 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1.8);
+    }
+
+}
+
+
+
+
+@media (max-width:1300px) {
+    .displayglobal {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:1300px) {
+    .displayglobal {
+        height: 10rem;
+    }
+}
+
+.miam {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    flex: 1;
+
+}
+
+.miam p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.prix{
+    padding-right: 1rem;
+
+}
+
+.boxmenu {
+    width: 25rem;
+    /* min-width: 400px; */
+    max-width: 400px;
+    height: 5rem;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+    border-radius: 1rem;
+    padding-left: 0.5;
+    overflow: hidden;
+    background-color: white;
+    animation: appear 600ms;
+
+}
+
+.box2 {
+    animation: appear 800ms;
+
+}
+
+.box3 {
+    animation: appear 1000ms;
+}
+
+.boxmenu .cloche {
+    background-color: #99E2D0;
+    padding: 1rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: margin-right 2s;
+    margin-right: -6rem;
+    width: 4rem;
+    height: 3rem;
+    transition-duration: .5s;
+}
+
+.boxmenu:hover .cloche {
+    margin-right: 0;
+
+}
+
+.boxmenu:hover .cloche i {
+    visibility: visible;
+    animation: rotate .4s linear;
+
+
+
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.cloche i {
+    background-color: white;
+    color: #99E2D0;
+    border-radius: 50%;
+    padding: 0.5rem;
+    visibility: hidden;
+
+
+
+
+}
+
+.textmenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titremenu {
+    border-bottom: 4px solid #99E2D0;
+    width: 3.8rem;
+    font-weight: bold;
+    margin-left: 1.3rem;
+
+
+}
+
+.boxmenu h3 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 0;
+    margin-bottom: -0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+}
+
+.boxmenu p {
+    padding-left: 0.5rem;
+}
+
+.price1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: auto;
+}
+
+.valid-anim {
+    border: 1px solid red;
+    background-color: #ff79da;
+}
+
+
+.btnp2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.commander-btn {
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    padding: 0.75rem 0.5rem;
+    margin: 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #686868;
+    background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
+    cursor: pointer;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    transition: all 0.4s;
+}
+
+.commander-btn:hover {
+    transform: scale(1.10);
+}
+
+.fa-solid.fa-heart:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: all 800ms ease-in-out;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
+    border: 16px solid #bdc3c7;
+    width: 100px;
+    height: 100px;
+    border-top-color: #FF79DA;
+    border-bottom-color: #99E2D0;
+    background-color: #FF79DA;
+    border-radius: 50%;
+    animation: chargeur 3s linear;
+    opacity: 0.9;
+    animation-fill-mode: forwards;
+
+}
+
+@media (max-width:767px) {
+    .loader {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.loader2 {
+    position: absolute;
+    /* Supprime la position absolute pour créer un effet avec le logo ohmyfood */
+    width: 400vh;
+    height: 400vh;
+    animation: chargeur1 2s linear;
+    opacity: 0.9;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes chargeur1 {
+    0% {
+        background-color: lightgray;
+    }
+
+    100% {
+        background-color: transparent;
+        width: 0;
+        height: 0;
+    }
+}
+
+
+@keyframes chargeur {
+    0% {
+        transform: rotate(0deg) scale(1);
+        border-top-color: red;
+        border-bottom-color: red;
+    }
+
+    25% {
+        border-top-color: #99E2D0;
+        border-bottom-color: #99E2D0;
+    }
+
+    50% {
+        transform: rotate(360deg) scale(1.15);
+        border-top-color: #FF79DA;
+        border-bottom-color: #FF79DA;
+    }
+
+    75% {
+        border-top-color: #99E2D0;
+        border-bottom-color: #99E2D0;
+    }
+
+    100% {
+        transform: rotate(720deg) scale(0);
+        border-top-color: #FF79DA;
+        border-bottom-color: #FF79DA;
+    }
+}
+
+@keyframes appear {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}

@@ -1,0 +1,23 @@
+/* BODY */
+@import url(./body.css);
+@import url(./fonctionnement.css);
+@import url(./header.css);
+@import url(./localisation.css);
+@import url(./logo.css);
+@import url(./reservation.css);
+@import url(./restaurant.css);
+@import url(./footer.css);
+@import url(./headerp2.css);
+@import url(./bannierep2.css);
+@import url(./menup2.css);
+@import url(./footerp2.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}

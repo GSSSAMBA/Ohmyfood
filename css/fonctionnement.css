@@ -1,0 +1,128 @@
+/* FONCTIONNEMENT */
+.fonctionnement h1 {
+    padding-top: 1.3rem;
+    font-family: 'Shrikhand', sans-serif;
+}
+
+.fonctionnement {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 0.5rem;
+    padding-bottom: 2rem;
+
+}
+
+.choix {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    height: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    /* width: 23rem;
+    margin-left: 1rem; */
+}
+
+.choix:hover {
+    transform: scale(1.01);
+    background-color: #5f06d51a;
+    
+}
+
+.choix:hover i{
+    color: #9356DC ;
+}
+
+
+
+
+
+.absolute1 {
+    position: absolute;
+    left: calc(-25px/2);
+    border-radius: 50%;
+    padding: 0.3rem 0.7rem;
+    background-color: #9356DC;
+    color: white;
+}
+
+.absolute2 {
+    position: absolute;
+    left: calc(-25px/2);
+    border-radius: 50%;
+    padding: 0.3rem 0.7rem;
+    background-color: #9356DC;
+    color: white;
+}
+
+.absolute3 {
+    position: absolute;
+    left: calc(-25px/2);
+    border-radius: 50%;
+    padding: 0.3rem 0.7rem;
+    background-color: #9356DC;
+    color: white;
+}
+
+
+@media (min-width:768px) {
+
+
+
+    .position1 {
+        /* background-color: red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .fonctionnement h1 {
+        display: flex;
+        justify-content: center;
+    
+    }
+
+
+
+}
+
+@media (min-width:831px) {
+    .position1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .choix {
+        width: 350px;
+    }
+
+}
+
+.fa-mobile-alt {
+    padding-left: 3.3rem;
+    padding-right: 2rem;
+}
+
+.fa-list-ul {
+    padding-left: 3.3rem;
+    padding-right: 1.8rem;
+}
+
+.fa-store {
+    padding-left: 3.3rem;
+    padding-right: 1.8rem;
+
+}
+
+.fa-mobile-alt:hover {
+    color: green;
+
+}
