@@ -21,3 +21,9 @@ footer h3{
 footer li{
    padding-bottom: 0.5rem;
 }
+
+.footerlink {
+    color: #fafafa;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
