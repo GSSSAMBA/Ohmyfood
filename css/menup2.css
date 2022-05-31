@@ -105,7 +105,7 @@
     height: 26rem;
     display: flex;
     justify-content: space-around;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 
 
 }
